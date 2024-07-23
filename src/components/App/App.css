@@ -1,0 +1,30 @@
+.app-light {
+  background-color: white;
+  color: black;
+}
+
+.app-dark {
+  background-color: rgb(54, 54, 54);
+  color: white;
+}
+
+.switch-container {
+  position: relative;
+}
+
+#switch {
+  display: none;
+}
+
+label {
+  display: flex;
+  align-items: center;
+}
+
+.ball {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: grey;
+  border-radius: 50%;
+}

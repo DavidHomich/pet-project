@@ -1,0 +1,48 @@
+.rent {
+  padding: 100px 0;
+}
+.rent-inher {
+  display: flex;
+  justify-content: space-between;
+}
+.rent-content {
+  width: 300px;
+}
+.rent-title {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  margin-bottom: 60px;
+}
+.rent-text {
+  margin-bottom: 20px;
+}
+.rent-text + .rent-text {
+  margin-bottom: 40px;
+}
+.rent-item {
+  width: 250px;
+  min-height: 350px;
+  border: 1px solid #332208;
+  padding: 0 40px 40px 40px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.rent-item-num {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 500;
+  font-size: 96px;
+  line-height: 115px;
+  color: #1b1818;
+  opacity: 0.1;
+}
+.rent-item-title {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  margin-bottom: auto;
+}

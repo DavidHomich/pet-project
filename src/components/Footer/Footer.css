@@ -1,0 +1,19 @@
+.footer {
+  padding: 20px 0 25px;
+  margin: 0 auto;
+  background-color: #332208;
+}
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.foote-social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-social-link {
+  margin: 0 15px 0 15px;
+}

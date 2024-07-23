@@ -1,0 +1,119 @@
+.top {
+  padding-bottom: 100px;
+}
+.top-heading {
+  display: flex;
+  padding-bottom: 50px;
+}
+.top-content {
+  text-align: center;
+  padding-top: 90px;
+}
+.top-title {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 58px;
+  font-weight: 700;
+  margin: 0 auto 20px;
+}
+.top-text {
+  font-size: 24px;
+  line-height: 28px;
+  margin: 0 auto 60px;
+  min-width: 470px;
+}
+.application-btn {
+  display: inline-block;
+  padding: 15px 50px;
+  background-color: #c5ac2d;
+  text-transform: uppercase;
+  transition: 0.7s;
+  border: 1px solid transparent;
+}
+.application-btn:hover {
+  color: #c5ac2d;
+  background-color: #fff;
+  border: 1px solid #c5ac2d;
+}
+.top-slider {
+  width: 50%;
+}
+
+.top-slider .slick-dots {
+  position: absolute;
+  float: right;
+  display: flex;
+  flex-direction: column;
+}
+.slick-dots {
+  list-style: none;
+  text-align: center;
+  margin-left: 570px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.slick-dots li button {
+  font-size: 0px;
+  border: none;
+  outline: none;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #332208;
+  padding: 0px;
+}
+.slick-dots li button:focus {
+  width: 16px;
+  height: 16px;
+}
+.top-slider-text {
+  padding-right: 140px;
+  text-align: right;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 500;
+}
+.top-slider-text span + span {
+  padding-left: 28px;
+}
+.top-buttom {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.top-items {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.top-item {
+  border: 1px solid #1b1818;
+  width: 150px;
+  height: 150px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.top-item:hover {
+  transform: scale(1.25);
+}
+/* .top-item-img {
+  }
+  .top-item-text {
+  } */
+.top-links {
+  padding-right: 100px;
+}
+.top-link {
+  color: #1b1818;
+  border-bottom: 1px solid #1b1818;
+  padding-bottom: 5px;
+}
+.top-link + .top-link {
+  margin-left: 60px;
+}

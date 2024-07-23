@@ -1,0 +1,54 @@
+.top-slider {
+  width: 70%;
+}
+.top-slider img {
+  width: 480px;
+  height: 350px;
+  margin-left: 150px;
+}
+
+.top-slider .slick-dots {
+  position: absolute;
+  float: right;
+  display: flex;
+  flex-direction: column;
+}
+.slick-dots {
+  list-style: none;
+  text-align: center;
+  margin-left: 50px;
+  top: 100%;
+  transform: translateY(55%);
+}
+.slick-dots li button {
+  font-size: 0px;
+  border: none;
+  outline: none;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #332208;
+  padding: 0px;
+}
+.slick-dots li button:focus {
+  width: 16px;
+  height: 16px;
+}
+.slick-dots li button:before {
+  display: none;
+}
+.top-slider-text {
+  display: flex;
+  justify-content: space-around;
+  padding-right: 140px;
+  text-align: right;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 500;
+}
+.top-slider-text span + span {
+  padding-left: 28px;
+}
+.slick-arrow::before {
+  display: none;
+  transform: rotateY(5000px);
+}
